@@ -1,5 +1,6 @@
 plugins {
     id 'com.android.application'
+    id 'kotlin-parcelize'
 }
 apply plugin: 'kotlin-android'
 
@@ -39,6 +40,16 @@ dependencies {
     implementation "androidx.core:core-ktx:+"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
+
+    // Retrofit (HTTP Client): https://square.github.io/retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+
+    // Glide (Image Loading): https://github.com/bumptech/glide
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
+
+
 
     testImplementation 'junit:junit:4.13.2'
 
