@@ -3,6 +3,7 @@ package com.example.matchessimulator.ui
 import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.core.graphics.toColorInt
 import com.bumptech.glide.Glide
 import com.example.matchessimulator.databinding.ActivityDetailBinding
 import com.example.matchessimulator.domain.Match

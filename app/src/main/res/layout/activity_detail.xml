@@ -26,6 +26,7 @@
                 android:id="@+id/ivPlace"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+
                 android:fitsSystemWindows="true"
                 android:scaleType="centerCrop" />
 
@@ -35,7 +36,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
                 android:background="@android:color/transparent"
-                android:elevation="0dp" />
+                android:elevation="0dp"
+                app:titleTextColor="@color/white" />
 
         </com.google.android.material.appbar.CollapsingToolbarLayout>
 
